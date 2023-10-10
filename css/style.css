@@ -1,17 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #FFF;
     color: #434455;
+   
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+
+img {
+    display: block;
 }
 a {
     text-decoration: none;
 }
 ul {
+    margin: 0;
+        padding-left: o;
     list-style-type: none;
 }
 header {
     background-color: #FFF;
+   }
+.container {
+    display: flex;
 }
+
 .logo-titel {
     color:  #4D5AE5;
         font-family: "Raleway", sans-serif;
@@ -20,6 +40,7 @@ header {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        /* margin-left: 156px; */
 }
 .logo-titel-studio {
     color:  #2E2F42;
@@ -41,6 +62,7 @@ header {
 }
 .contacts {
     font-style: normal;
+    display: block;
 }
 .contacts-link {
     color:  #434455;
@@ -48,6 +70,8 @@ header {
     font-style: normal;
     font-size: 16px;
     letter-spacing: 0.02em;
+    flex-direction: row;
+
 }
 .contacts-link:hover,
 .contacts-link:active,
@@ -57,7 +81,10 @@ header {
 
 
 /*Section 1*/
-
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .main-section {
     background:  #2E2F42;
 }
