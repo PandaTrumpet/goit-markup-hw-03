@@ -37,6 +37,8 @@ margin-bottom: 0;}
 
 .container {
     display: flex;
+    width: 1158px;
+    padding: 0 15px;
 }
 .menu {
     display: flex;
