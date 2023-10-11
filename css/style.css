@@ -39,20 +39,27 @@ p {
     /* max-width: 100%; */
 }
 /* Header */
+.begin {
+    border-bottom: 1px solid #e7e9fc;
+}
 .container {
     display: flex;
     align-items: center;
     height: 72px;
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .navigation {
     display: flex;
+    align-items: center;
 }
 .navigation-menu {
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    padding: 24px 0;
 }
 header {
     background-color: #FFF;
