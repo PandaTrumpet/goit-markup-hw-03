@@ -124,6 +124,7 @@ header {
      line-height: 1.07;
     letter-spacing: 0.02em;
    max-width: 496px;
+   margin-left: 316px;
     
 }
 .click {
@@ -133,6 +134,13 @@ header {
    cursor: pointer;
    font-weight: 500;
    line-height: 1.5;
+   padding: 16px 32px;
+   border-radius: 4px;
+   display: block;
+   height: 56px;
+   border: none;
+   min-width: 169px;
+ 
 }
 .click:hover,
 .click:focus,
