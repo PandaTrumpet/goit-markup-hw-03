@@ -45,7 +45,7 @@ header {
     background-color: #FFF;
 }
 .page-header {
-    /* margin-left: 156px; */
+   
     border-bottom: 1px solid #e7e9fc;
 }
 .page-header .container {
@@ -104,7 +104,7 @@ header {
     display: flex;
     gap: 40px;
     flex-direction: row;
-    /* justify-content: flex-end; */
+    
     
 }
 .contacts-link {
@@ -238,6 +238,7 @@ background-color: #FFF;
 
 .team-section {
    background-color: #F4F4FD;
+   padding: 120px 0;
 }
 .team-title-menu {
     display: flex;
@@ -249,7 +250,7 @@ background-color: #FFF;
     display: flex;
     flex-direction: column;
     min-height: 732px;
-    margin-left: 156px;
+    /* margin-left: 156px; */
 }
 .team-title {
     color:  #2E2F42;
@@ -261,7 +262,8 @@ background-color: #FFF;
     text-transform: capitalize;
     margin: 0 auto;
     padding-top: 120px;
-    padding-bottom: 72px;
+  margin-bottom: 72px;
+margin-bottom: 8px;
 }
 .team-list {
     background-color: #FFFFFF;
@@ -269,6 +271,11 @@ background-color: #FFF;
     flex-direction: column;
     border-bottom: 1px solid black;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+}
+.team-list-container {
+    padding: 32px 0;
+   
 }
 .team-member {
     color:#2E2F42;
