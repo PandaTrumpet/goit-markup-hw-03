@@ -179,7 +179,7 @@ header {
 
 /*===================Section 2===============*/
 
-.descriprion{ 
+.description { 
 background-color: #FFF;
 padding: 120px 0;
 }
@@ -212,8 +212,8 @@ padding: 120px 0;
 .description-list {
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
     width: calc((100% - 72px) / 4);
     
 }
