@@ -57,8 +57,13 @@ ul {
 header {
     background-color: #FFF;
 }
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .page-header .container {
     display: flex;
+    margin: 0 auto;
+    padding : 0 15px;
 
 }
 .header-menu {
@@ -66,7 +71,7 @@ header {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-left: 76px;
+   
     margin-right: 332px;
 }
 .header-nav {
@@ -83,6 +88,7 @@ header {
         text-transform: uppercase;
         padding-top: 25.5px;
         padding-bottom: 25.5px;
+        margin-right: 76px;
 }
 .logo-titel-studio {
     color:  #2E2F42;
@@ -94,6 +100,7 @@ header {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 .up-title:hover,
 .up-title:active,
@@ -131,11 +138,13 @@ header {
 
 .main-section {
     background:  #2E2F42;
+    padding: 188px 0;
 }
 .main-section .container {
     display: flex;
     flex-direction: column;
-    padding: 188px 0;
+    /* padding: 188px 0; */
+    margin: 0 auto;
 
 }
 .main-title {
@@ -161,6 +170,8 @@ header {
    padding: 15px 32px;
    border-radius: 4px;
    border: none;
+   min-width: 169px;
+   height: 56px;
 
 }
 .click:hover,
@@ -181,6 +192,7 @@ padding: 120px 0;
 .description .container {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     
 }
 .description-title {
@@ -231,6 +243,7 @@ padding: 120px 0;
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin: 0 auto;
 }
 .team-title {
     color:  #2E2F42;
@@ -240,11 +253,12 @@ padding: 120px 0;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+   margin-bottom: 72px;
 }
 .team-list {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-list-container {
     padding: 32px 0;
@@ -282,6 +296,7 @@ padding: 120px 0;
 .portfolio-section .container {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 .portfolio-menu {
     display: flex;
@@ -301,12 +316,20 @@ padding: 120px 0;
         text-transform: capitalize;
         margin-bottom: 72px;
 }
+.portfolio-list {
+    width: calc((100% - 48px) / 3);
+}
 .portfolio-product-title {
     color:  #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px
+}
+.portfolio-list-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .product-description {
     color:  #434455;
@@ -321,6 +344,10 @@ padding: 120px 0;
 .down-block {
     background-color: #2E2F42;
     padding: 100px 0;
+  
+}
+.down-block .container {
+    margin: 0 auto;
 }
 .logo-title-down {
     color:  #4D5AE5;
@@ -332,7 +359,7 @@ padding: 120px 0;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         display: inline-block;
-        margin-bottom: 17.5px;
+        margin-bottom: 16px;
 }
 .logo-titel-dowwn-studio {
     color:  #F4F4FD;
