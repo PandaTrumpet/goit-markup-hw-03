@@ -285,7 +285,7 @@ background-color: #FFF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         padding-top: 32px;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 .team-job {
     color: #434455;
@@ -318,6 +318,7 @@ background-color: #FFF;
 }
 .portfolio-menu-container {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .portfolio-title {
     color: #2E2F42;
@@ -378,7 +379,7 @@ background-color: #FFF;
         margin-bottom: 16px;
 }
 .logo-titel-dowwn-studio {
-   
+   display: inline-block;
     color:  #F4F4FD;
        }
 .text-paragraphe-down {
