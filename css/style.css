@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+.list {
+
+    list-style: none;
+
+}
+
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -15,53 +47,31 @@ a {
 }
 ul {
     list-style-type: none;
-
-}
-h1,
-h2,
-h3,
-h4,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-img {
-    display: block;
 }
 .container {
-    display: flex;
-    width: 1158px;
+    max-width: 1158px;
+    
 }
 
-
-/* =================PAGE HEADER =============*/
+/* ====================PAGE HRADER===================== */
 header {
     background-color: #FFF;
 }
-.page-header {
-   
-    border-bottom: 1px solid #e7e9fc;
-}
 .page-header .container {
-    margin: 0 auto;
-    padding: 0 15px;
-
-}
-
-.page-nav {
     display: flex;
-    align-items: center;
+
 }
-.menu {
+.header-menu {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 76px;
     margin-right: 332px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 .logo-titel {
     color:  #4D5AE5;
@@ -71,10 +81,8 @@ header {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        display: block;
         padding-top: 25.5px;
         padding-bottom: 25.5px;
-        margin-right: 76px;
 }
 .logo-titel-studio {
     color:  #2E2F42;
@@ -86,9 +94,6 @@ header {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        display: block;
-        padding-top: 24px;
-        padding-bottom: 24px;
 }
 .up-title:hover,
 .up-title:active,
@@ -103,9 +108,8 @@ header {
 .contacts-menu {
     display: flex;
     gap: 40px;
-    flex-direction: row;
-    
-    
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 .contacts-link {
     color:  #434455;
@@ -113,31 +117,25 @@ header {
     font-style: normal;
     font-size: 16px;
     letter-spacing: 0.02em;
-    display: block;
-    padding-top: 24px;
-     padding-bottom: 24px;
 }
 .contacts-link:hover,
 .contacts-link:active,
 .contacts-link:focus {
     color:  #404BBF;
    }
-/* =================PAGE HEADER =============*/
+/* ====================PAGE HRADER===================== */
 
 
 
-
-/*=============Section 1====================*/
+/*===================Section 1==========================*/
 
 .main-section {
     background:  #2E2F42;
-    padding: 188px 0;
 }
 .main-section .container {
     display: flex;
     flex-direction: column;
-   /* margin-left: 156px; */
-    min-height: 600px;
+    padding: 188px 0;
 
 }
 .main-title {
@@ -147,10 +145,10 @@ header {
      font-weight: 700;
      line-height: 1.07;
     letter-spacing: 0.02em;
+
     max-width: 496px;
     margin: 0 auto;
-    margin-top: 188px;
-    margin-bottom: 48px;
+   margin-bottom: 48px;
 }
 .click {
     color: #FFF;
@@ -159,25 +157,22 @@ header {
    cursor: pointer;
    font-weight: 500;
    line-height: 1.5;
-   display: block;
-  text-align: center;
-   min-width: 169px;
-   height: 56px;
-   border-radius: 4px;
    margin: 0 auto;
+   padding: 15px 32px;
+   border-radius: 4px;
    border: none;
-  
+
 }
 .click:hover,
 .click:focus,
 .click:active {
     background-color: #404BBF;
 }
-/*=============Section 1====================*/
+/*===================Section 1==========================*/
 
 
 
-/*===================Section 2===============*/
+/*===============================Section 2============================*/
 
 .description { 
 background-color: #FFF;
@@ -186,36 +181,28 @@ padding: 120px 0;
 .description .container {
     display: flex;
     flex-direction: column;
-    /* min-height: 344px; */
-   
-}
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-.menu-description {
-    display: flex;
-    gap: 24px;
-    flex-direction: row;
     
-  
+}
+.description-title {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.description-menu {
+    display: flex;
+   gap: 24px;
+   margin: 0 auto;
 }
 .description-list {
-    display: flex;
-    flex-direction: column;
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
-    width: calc((100% - 72px) / 4);
-    
+    width: calc(( 100% - 72px) / 4);
 }
 .description-category-title {
     color:#2E2F42;
@@ -231,27 +218,19 @@ padding: 120px 0;
     letter-spacing: 0.02em;
 }
 
-/*===================Section 2===============*/
+/*===============================Section 2============================*/
 
 
-
-/*====================Section 3===============*/
+/*==================================Section 3=============================*/
 
 .team-section {
    background-color: #F4F4FD;
    padding: 120px 0;
 }
-.team-title-menu {
-    display: flex;
-   
-    gap: 24px;
-
-}
 .team-section .container {
     display: flex;
     flex-direction: column;
-    min-height: 732px;
-    /* margin-left: 156px; */
+    gap: 24px;
 }
 .team-title {
     color:  #2E2F42;
@@ -261,22 +240,14 @@ padding: 120px 0;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin: 0 auto;
-    padding-top: 120px;
-  margin-bottom: 72px;
-
+    padding-bottom: 72px;
 }
 .team-list {
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid black;
-    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
 }
 .team-list-container {
     padding: 32px 0;
-   
 }
 .team-member {
     color:#2E2F42;
@@ -285,7 +256,6 @@ padding: 120px 0;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        padding-top: 32px;
         margin-bottom: 8px;
 }
 .team-job {
@@ -293,39 +263,32 @@ padding: 120px 0;
     text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    padding-bottom: 32px;
 }
-    /*====================Section 3===============*/
+.team-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
 
-/*=========================Section 4==============*/
+/*==================================Section 3=============================*/
+
+
+/*====================================Section 4============================*/
 
 .portfolio-section {
    background-color: #FFF;
-   padding-top: 120px;
-   padding-bottom: 120px;
+   padding: 120px 0;
 }
 .portfolio-section .container {
     display: flex;
     flex-direction: column;
-    /* height: 1240px; */
-   
 }
 .portfolio-menu {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    /* margin-left: 156px; */
-   
-}
-.portfolio-menu-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
-.portfolio-list {
-    width: calc((100% - 48px) / 3);
-    /* column-gap: 24px; */
 }
 .portfolio-title {
     color: #2E2F42;
@@ -336,7 +299,7 @@ padding: 120px 0;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-               margin-bottom: 72px;
+        margin-bottom: 72px;
 }
 .portfolio-product-title {
     color:  #2E2F42;
@@ -344,33 +307,20 @@ padding: 120px 0;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        padding-top: 32px;
-        padding-bottom: 8px;
-        padding-left: 16px;
-        padding-right: 16px;
-        margin-bottom: 8px;
 }
 .product-description {
     color:  #434455;
      line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    padding-left: 16px;
-        padding-right: 16px;
 }
+/*====================================Section 4============================*/
 
-/*=========================Section 4==============*/
 
-/* /==================Footer======================*/ 
+/*=========================================Footer=====================*/
 
 .down-block {
     background-color: #2E2F42;
     padding: 100px 0;
-}
-.down-block .container {
-    min-height: 212px;
-    flex-direction: column;
-
 }
 .logo-title-down {
     color:  #4D5AE5;
@@ -382,12 +332,9 @@ padding: 120px 0;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         display: inline-block;
-        /* margin-left: 156px; */
-        margin-top: 101px;
-        margin-bottom: 16px;
+        margin-bottom: 17.5px;
 }
-.logo-title-dowwn-studio {
-   display: inline-block;
+.logo-titel-dowwn-studio {
     color:  #F4F4FD;
        }
 .text-paragraphe-down {
@@ -399,8 +346,4 @@ padding: 120px 0;
         line-height: 1.5;
         letter-spacing: 0.02em;
         max-width: 264px;
-        /* min-height: 72px; */
-        /* margin-left: 156px; */
-        margin-top: 17.5px;
-     
 }
