@@ -35,6 +35,7 @@ ol {
 
 img {
     display: block;
+    width: 100%;
 }
 
 body {
@@ -72,11 +73,12 @@ header {
     padding-top: 24px;
     padding-bottom: 24px;
    
-    margin-right: 332px;
+    
 }
 .header-nav {
     display: flex;
     align-items: center;
+    margin-right: 332px;
 }
 .logo-titel {
     color:  #4D5AE5;
@@ -116,7 +118,9 @@ header {
     display: flex;
     gap: 40px;
     padding-top: 24px;
-        padding-bottom: 24px;
+    padding-bottom: 24px;
+  
+
 }
 .contacts-link {
     color:  #434455;
@@ -124,6 +128,9 @@ header {
     font-style: normal;
     font-size: 16px;
     letter-spacing: 0.02em;
+    
+   
+    
 }
 .contacts-link:hover,
 .contacts-link:active,
@@ -190,8 +197,8 @@ background-color: #FFF;
 padding: 120px 0;
 }
 .description .container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin: 0 auto;
     
 }
@@ -240,9 +247,9 @@ padding: 120px 0;
    padding: 120px 0;
 }
 .team-section .container {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+   /* display: flex;
+    flex-direction: column; */
+
     margin: 0 auto;
 }
 .team-title {
@@ -253,7 +260,7 @@ padding: 120px 0;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-   margin-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-list {
     background-color: #FFFFFF;
@@ -294,8 +301,8 @@ padding: 120px 0;
    padding: 120px 0;
 }
 .portfolio-section .container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin: 0 auto;
 }
 .portfolio-menu {
