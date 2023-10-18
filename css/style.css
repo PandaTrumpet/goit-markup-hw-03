@@ -365,7 +365,7 @@ padding: 0 15px;
     flex-direction: column;
 }
 .logotype-footer {
-     color:  #4D5AE5;
+     color: #4D5AE5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
@@ -374,11 +374,11 @@ padding: 0 15px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 16px;
-        display: inline-block;
+      
 
 }
 
-.logotype-footer .logo {
+ .logo {
     display: inline-block;
 }
 .logo-titel-dowwn-studio {
