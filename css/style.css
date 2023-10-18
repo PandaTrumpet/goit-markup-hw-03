@@ -365,8 +365,9 @@ padding: 0 15px;
     flex-direction: column;
 }
 .logo-title-down {
-    /* display: inline-block; */
-    color:  #4D5AE5;
+
+        display: inline-block;
+        color:  #4D5AE5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
