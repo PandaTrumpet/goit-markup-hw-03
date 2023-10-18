@@ -51,6 +51,7 @@ ul {
 }
 .container {
     max-width: 1158px;
+    padding: 0 15px;
     
 }
 
@@ -78,7 +79,7 @@ header {
 .header-nav {
     display: flex;
     align-items: center;
-    margin-right: 332px;
+    margin-right: auto;
 }
 .logo-titel {
     color:  #4D5AE5;
@@ -146,11 +147,13 @@ header {
 .main-section {
     background:  #2E2F42;
     padding: 188px 0;
+    /* max-width: 1440px;
+    margin: 0 auto; */
 }
 .main-section .container {
     display: flex;
     flex-direction: column;
-    /* padding: 188px 0; */
+   padding: 0 15px;
     margin: 0 auto;
 
 }
@@ -200,6 +203,7 @@ padding: 120px 0;
     /* display: flex;
     flex-direction: column; */
     margin: 0 auto;
+    padding: 0 15px;
     
 }
 .description-title {
@@ -249,7 +253,7 @@ padding: 120px 0;
 .team-section .container {
    /* display: flex;
     flex-direction: column; */
-
+padding: 0 15px;
     margin: 0 auto;
 }
 .team-title {
@@ -304,6 +308,7 @@ padding: 120px 0;
     /* display: flex;
     flex-direction: column; */
     margin: 0 auto;
+    padding: 0 15px;
 }
 .portfolio-menu {
     display: flex;
