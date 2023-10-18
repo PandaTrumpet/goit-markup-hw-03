@@ -379,7 +379,9 @@ padding: 0 15px;
         display: inline-block;
 
 }
-
+a .logotype-footer {
+    display: inline-block;
+}
 .logo-titel-dowwn-studio {
     color:  #F4F4FD;
    
