@@ -148,7 +148,7 @@ header {
     background:  #2E2F42;
     padding: 188px 0;
     /* max-width: 1440px;
-    margin: 0 auto; */
+    margin: 0 au; */
 }
 .main-section .container {
     display: flex;
@@ -365,6 +365,7 @@ padding: 0 15px;
     flex-direction: column;
 }
 .logo-title-down {
+    display: inline-block;
     color:  #4D5AE5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -373,7 +374,7 @@ padding: 0 15px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        display: inline-block;
+        
         margin-bottom: 16px;
 }
 .logo-titel-dowwn-studio {
