@@ -366,7 +366,7 @@ padding: 0 15px;
 }
 .logo-title-down {
 
-        display: inline-block; 
+       
         color:  #4D5AE5;
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -376,13 +376,14 @@ padding: 0 15px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 16px;
+        display: inline-block;
 
 }
 
 .logo-titel-dowwn-studio {
     color:  #F4F4FD;
        }
-       
+
 .text-paragraphe-down {
          color:  #F4F4FD;
         font-family: "Roboto";
